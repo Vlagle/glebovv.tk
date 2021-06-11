@@ -212,8 +212,94 @@ hr{
         width: 335px;
         height: 206px;
         margin-left: 14px;
-        margin-top: 181px;
+        margin-top: 50px;
     }
+    .about_h1{
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+        margin-top: 350px;
+    }
+    .about_text{
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 14px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        
+    }
+    .work_h1{
+        margin-top: 59px;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .img_work{
+        width: 278px;
+        height: 422px;
+        margin-left: 14px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .services{
+        display: none;
+    }
+    .btn1{
+        
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.42857143;
+        text-align: center;
+        width: 180px;
+        height: 40px;
+        font-family: 'Montserrat', sans-serif;
+        color: #FFFFFF;
+        border: 1px solid transparent;
+        margin-top: 20px;
+        background-color: #3C2EE0;
+        border-color: #3C2EE0;
+        
+    }
+    .container1{
+        margin: 0 auto;
+    }
+    .s_text{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 50px;
+        
+    }
+    .a1{
+        margin: 0 auto;
+    }
+    .bitrix_form{
+        margin: 0 auto;
+    }
+    .text_co{
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .bottom_text{
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 30px;
+        width: 100%;
+    }
+
+
 
 
 
