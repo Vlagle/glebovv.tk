@@ -187,18 +187,20 @@ hr{
 /* Для телефонов */
 
 @media (max-width: 600px) {
-    .a2{
-        font-weight: 600;
-        font-size: 30px;
-        text-align: center;
-    }
+    
     body{
         background-color: #0E0E0E;
         font-family: 'Montserrat', sans-serif;
         color: #FFFFFF;
-        overflow-x:hidden;
-        margin: 0;
         
+        margin: 0;
+        width: 100%;
+        
+    }
+    .a2{
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
     }
     .intro_h1{
         font-weight: bold;
