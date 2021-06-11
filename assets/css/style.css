@@ -192,7 +192,7 @@ hr{
         background-color: #0E0E0E;
         font-family: 'Montserrat', sans-serif;
         color: #FFFFFF;
-        
+        overflow-x:hidden;
         margin: 0;
         width: 100%;
         
