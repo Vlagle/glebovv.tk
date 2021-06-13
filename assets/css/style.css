@@ -14,6 +14,8 @@ body{
     
 }
 
+
+
 .intro_h1{
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
@@ -43,9 +45,9 @@ body{
     margin-bottom: 0;
     font-size: 36px;
     font-weight: 500;
-    line-height: 1.42857143;
+    line-height: 2;
     text-align: center;
-    width: 338px;
+    width: 500px;
     height: 72px;
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
@@ -54,6 +56,16 @@ body{
     margin-left: 83px;
     background-color: #3C2EE0;
     border-color: #3C2EE0;
+    text-decoration: none;
+}
+
+
+
+.btn3{
+    border:1px solid #ccc; /*рамка*/
+	background:#eaeaea; /*фон*/
+	padding: 10px 10px; /*отступы внутри*/
+	text-decoration: none; /*убрать подчеркивание ссылки*/
 }
 
 .btn1 {
@@ -188,19 +200,30 @@ hr{
 
 @media (max-width: 600px) {
     
+    html{
+        min-width: 100%;
+        overflow-x: hidden;
+    }
+
     body{
         background-color: #0E0E0E;
         font-family: 'Montserrat', sans-serif;
         color: #FFFFFF;
-        overflow-x:hidden;
+        min-width: 100%;
+        overflow-x: hidden;
         margin: 0;
-        width: 100%;
         
+        height: 100;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
     }
     .a2{
         font-weight: 600;
         font-size: 30px;
         text-align: center;
+        
     }
     .intro_h1{
         font-weight: bold;
@@ -209,6 +232,7 @@ hr{
         margin-left: 11px;
         margin-top: 32px;
         margin-bottom: 0;
+        
     }
     .intro_h2{
         margin-top: 31px;
@@ -221,15 +245,33 @@ hr{
         
     }
     .btn{
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        text-align: center;
+        width: 250px;
+        height: 25px;
+        font-family: 'Montserrat', sans-serif;
+        color: #FFFFFF;
+        border: 1px solid transparent;
+        margin-top: 33px;
+        margin-left: 11px;
+        background-color: #3C2EE0;
+        border-color: #3C2EE0;
+        text-decoration: none;
         
-        display: none;
+       
     }
     .img_intro{
         position: absolute;
         width: 335px;
         height: 206px;
-        margin-left: 14px;
-        margin-top: 50px;
+        margin-left: -250px;
+        margin-top: 120px;
+        
     }
     .about_h1{
         font-weight: bold;
