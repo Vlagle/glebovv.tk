@@ -204,11 +204,19 @@ hr{
 @media (max-width: 1600px) {
     .img_intro{
         position: absolute;
-        width: 1061px;
-        height: 654px;
-        margin-left: 20px;
-        margin-top: -50px;
+        width: 811px;
+        height: 500px;
+        margin-left: 0px;
+        margin-top: -300px;
         opacity: 30%;
+    }
+    html{
+        min-width: 100%;
+        overflow-x: hidden;
+    }
+    body{
+        min-width: 100%;
+        overflow-x: hidden;
     }
 }
 
