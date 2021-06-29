@@ -201,7 +201,6 @@ hr{
 }
 
 
-<<<<<<< HEAD
 @media (max-width: 1200px) {
     .img_intro{
         position: absolute;
@@ -210,15 +209,6 @@ hr{
         margin-left: 150px;
         margin-top: -300px;
         opacity: 30%;
-=======
-@media (max-width: 1250px) {
-    body{
-        max-height: 100vh;
-        max-height: 100%;
-    }
-    html{
-        max-height: 100vh;
->>>>>>> b7ba60b4d1f7e8a6c595bdb6a2c558081d25d7fe
     }
 }
 
