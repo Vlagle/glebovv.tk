@@ -201,6 +201,13 @@ hr{
 }
 
 
+@media (max-width: 600px) {
+    body{
+        max-height: 100vh;
+    }
+}
+
+
 /* Для телефонов */
 
 @media (max-width: 600px) {
