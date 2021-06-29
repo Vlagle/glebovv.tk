@@ -218,6 +218,9 @@ hr{
         min-width: 100%;
         overflow-x: hidden;
     }
+    .about_h1{
+        margin-top: 250px;
+    }
 }
 
 
